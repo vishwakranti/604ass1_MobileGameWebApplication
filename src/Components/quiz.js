@@ -78,7 +78,7 @@ const Quiz = () => {
   }, []);
 
   return (
-    <div className="container-fluid">
+    <div className="container-fluid background " >
       <div className="row pt-5">
         <div className="col-sm-6"></div>
         <div className="col-sm-6"> <QuestionLabel props={questionLabel} /></div>
